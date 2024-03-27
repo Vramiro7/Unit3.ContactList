@@ -1,0 +1,50 @@
+body{
+	background-color: darkgrey;
+	min-width: 100%;
+	
+}
+
+ul{
+	display: flex;
+	flex-direction: column;
+	background-color: gold;
+	border-style: solid;
+	height: 1500px;
+	position: static;
+	align-items: center;
+	overflow: hidden;
+	margin-top: 0px;
+	
+}
+
+li{
+	padding: 20px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 600;
+	font-size: xx-large;
+	display: flex;
+	justify-content: center;
+	border-bottom: dashed black;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	color: gold;
+	border-style: solid;
+	border: black;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: xx-large;
+}
+
+li:hover{
+	background-color: black;
+	color: gold;
+	transition: ease-in 2s;
+	transition: ease-out 2s;
+}
+	
+P{
+	color: black;
+}
